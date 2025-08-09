@@ -355,8 +355,8 @@ html {
 }
 
 .social-icon {
-  width: 44px;       /* dopasuj rozmiar ikon do layoutu */
-  height: 44px;
+  width: 35px;       /* dopasuj rozmiar ikon do layoutu */
+  height: 35px;
   object-fit: contain;
   display: block;
   transition: transform 0.18s ease, filter 0.18s ease;
@@ -403,3 +403,26 @@ html, body {
 }
 
 
+
+
+
+
+
+@media (max-width: 768px) {
+  #wyciagniete {
+    flex-direction: column; /* ustawia pionowo */
+    text-align: center;
+  }
+}
+
+
+
+#countermobile {
+  display: none; /* Hide by default (desktop) */
+}
+
+@media (max-width: 768px) {
+  #countermobile {
+    display: block; /* Show on screens 768px wide or smaller (mobile) */
+  }
+}
