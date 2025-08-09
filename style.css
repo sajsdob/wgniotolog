@@ -379,3 +379,27 @@ html {
     height: 36px;
   }
 }
+
+
+@media (max-width: 768px) {
+ #napis {
+    width: 80vw; /* 80% of viewport width */
+    height: auto; /* keep aspect ratio */
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  #home h1 {
+    font-size: 20px;
+  }
+}
+
+
+
+html, body {
+  overflow-x: hidden;
+}
+
+

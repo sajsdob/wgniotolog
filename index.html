@@ -161,6 +161,19 @@
     }, { threshold: 0.5 });
 
     observer.observe(counterElement);
+
+    document.addEventListener("DOMContentLoaded", function () {
+  const hamburger = document.querySelector(".hamburger");
+  const navLinks = document.querySelector(".nav-links");
+  const links = document.querySelectorAll(".nav-links a");
+
+  links.forEach(link => {
+    link.addEventListener("click", () => {
+      navLinks.classList.remove("active");  // schowaj menu
+      hamburger.classList.remove("active"); // zmień też ikonę hamburgera jeśli jest animowana
+    });
+  });
+});
 </script>
 
         <a href="tel:+48888628719" class="call-button">ZADZWOŃ</a>
