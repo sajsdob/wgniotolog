@@ -204,7 +204,7 @@ html {
 .service-card {
     background: white;
     padding: 30px 20px;
-    border-radius: 15px;
+    border-radius: 7px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.05);
     transition: transform 0.2s, box-shadow 0.2s;
 }
@@ -315,7 +315,7 @@ html {
 .contact-card {
   background: #f9f9f9;
   padding: 22px;
-  border-radius: 12px;
+  border-radius: 5px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
   text-align: center;
 }
@@ -425,4 +425,24 @@ html, body {
   #countermobile {
     display: block; /* Show on screens 768px wide or smaller (mobile) */
   }
+}
+
+
+
+body {
+  margin-bottom: 40px; /* lub inna wartość w px, rem itp. */
+}
+
+
+
+.icon-type {
+    height: 50px;
+}
+
+
+
+
+
+.type {
+    color: #e60000 !important;
 }
