@@ -154,7 +154,15 @@
   </div>
 </section>
 
+  <footer>
+    <p style="width: 100vw; text-align: center;">
+  © <span id="year"></span> Wgniotolog. Wszystkie prawa zastrzeżone.
+</p>
+    </footer>
+
     <script>
+          document.getElementById('year').textContent = new Date().getFullYear() + 1;
+
         const hamburger = document.querySelector(".hamburger");
         const navLinks = document.querySelector(".nav-links");
 
@@ -236,8 +244,6 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>
 
 </body>
-  <footer>
-        <p style="width: 100vw; text-align: center;">© 2025 Wgniotolog. Wszystkie prawa zastrzeżone.</p>
-    </footer>
+
 
 </html>
