@@ -505,6 +505,86 @@ body {
 
 
 
+/* Dlaczego PDR section */
+#why-pdr {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: white;
+  color: #333;
+}
 
+#why-pdr h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
 
-/* SZKOLENIA */
+#why-pdr .underline {
+  width: 100px;
+  height: 4px;
+  background-color: #e60000;
+  margin: 0 auto 40px;
+}
+
+.underline {
+  width: 100px;
+  height: 4px;
+  background-color: #e60000;
+  margin: 0 auto 40px;
+}
+
+#why-pdr .benefits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+#why-pdr .benefit {
+  max-width: 250px;
+  text-align: center;
+}
+
+#why-pdr .benefit img {
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+#why-pdr .benefit h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#why-pdr .benefit ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #555;
+}
+
+#why-pdr .benefit ul li {
+  margin-bottom: 6px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #why-pdr h1 {
+    font-size: 2rem;
+  }
+  #why-pdr .benefits {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  #why-pdr h1 {
+    font-size: 1.6rem;
+  }
+  #why-pdr .benefit {
+    max-width: 100%;
+  }
+}
+
