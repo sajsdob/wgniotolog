@@ -749,3 +749,43 @@ body {
     linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),
     url("./assets/hail.jpg") center/cover no-repeat;
 }
+
+
+.scroll-text-section {
+  width: 100%;
+  overflow: hidden;
+  /* background: #e6e6e6; */
+  padding: 100px 0 20px 0
+}
+
+.scroll-track {
+  display: flex;
+  width: max-content;
+  animation: scrollLeft 70s linear infinite;
+}
+
+.scroll-track span {
+  font-size: 90px;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.12);
+  white-space: nowrap;
+  margin-right: 80px;
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@keyframes scrollLeft {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+
+@media (max-width: 768px) {
+  .scroll-track span {
+    font-size: 50px;
+  }
+}
