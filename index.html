@@ -6,7 +6,6 @@
 
   <title>Profesjonalna naprawa wgnieceń samochodowych bez lakierowania Poznań | Wgniotolog</title>
   <meta name="description" content="Wgniotolog oferuje profesjonalne usuwanie wgnieceń samochodowych bez lakierowania (PDR) w Poznaniu. Skutecznie przywracamy karoserię do idealnego stanu. Zadzwoń!" />
-  <meta name="keywords" content="usuwanie wgnieceń, PDR, naprawa wgnieceń samochodu, bez lakierowania, wgniecenia parkingowe, gradobicie, Poznań" />
   <meta name="author" content="Wgniotolog" />
 
   <!-- Open Graph / Facebook -->
@@ -25,6 +24,25 @@
   <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
+  <!-- Structured Data for LocalBusiness -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoRepair",
+      "name": "Wgniotolog",
+      "url": "https://wgniotolog.pl",
+      "telephone": "+48600557101",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Poznań",
+        "addressCountry": "PL"
+      },
+      "openingHours": "Mo-Fr 09:00-18:00",
+      "image": "https://wgniotolog.pl/assets/logo.jpg",
+      "description": "Profesjonalne usuwanie wgnieceń samochodowych bez lakierowania (PDR) w Poznaniu."
+    }
+  </script>
 </head>
 <body>
     <header>
@@ -64,7 +82,8 @@
     <section id="home">
         <div class="home-content">
             <img src="./assets/napis.png" id="napis" alt="Profesjonalne usuwanie wgnieceń bez lakierowania">
-            <h1>Profesjonalne usuwanie wgnieceń <br> bez lakierowania</h1>
+            <!-- Main H1 for SEO -->
+            <h1>Profesjonalne usuwanie wgnieceń <br> bez lakierowania w Poznaniu</h1>
             <h2>PDR – oszczędza Twój czas i pieniądze</h2>
             <h3 style="color: red; font-weight: bolder; padding-top: 20px;">Poznań i okolice</h3>
         </div>
@@ -86,14 +105,17 @@
     </section>
 
     <section id="about">
-        <h1>
-          <span id="dent-counter">0</span><span>+</span><br>
-          <span id="wyciagniete" style="padding-bottom: 3px;">Wyciągniętych wgnieceń</span>
-        </h1>
+        <!-- Preserve visual look: large counter + text under it -->
+        <div class="counter-wrapper">
+          <h2 style="display: flex; align-items: baseline; justify-content: center; font-size: 4rem; margin: 0;">
+            <span id="dent-counter">0</span><span id="plus">+</span>
+          </h2>
+          <p id="wyciagniete" style="text-align: center; font-size: 1.5rem; margin-top: 5px;">Wyciągniętych wgnieceń</p>
+        </div>
     </section>
 
  <section id="services">
-    <h1>Moje usługi</h1>
+    <h2>Moje usługi</h2>
     <div class="underline"></div>
 
     <p>
@@ -106,7 +128,7 @@
             <div class="icon" style="display: flex; justify-content: center;"> 
                 <img src="assets/parking.png" alt="Wgniecenia parkingowe - PDR" class="icon-type">
             </div>
-            <h2 class="type">Wgniecenia parkingowe</h2>
+            <h3 class="type">Wgniecenia parkingowe</h3>
             <p>Usuwam skutki przypadkowych uderzeń drzwiami, kolizji na parkingu czy uderzeń wózków sklepowych.</p>
         </div>
 
@@ -114,7 +136,7 @@
             <div class="icon" style="display: flex; justify-content: center;">           
                 <img src="assets/grad.png" alt="Uszkodzenia po gradobiciu - PDR" class="icon-type">
             </div>
-            <h2 class="type">Uszkodzenia po gradobiciu</h2>
+            <h3 class="type">Uszkodzenia po gradobiciu</h3>
             <p>Naprawiam liczne, drobne wgniecenia na karoserii powstałe w wyniku intensywnego gradobicia.</p>
         </div>
 
@@ -122,7 +144,7 @@
             <div class="icon" style="display: flex; justify-content: center;">           
                 <img src="assets/wandalizm.png" alt="Akty wandalizmu - PDR" class="icon-type">
             </div>
-            <h2 class="type">Akty wandalizmu</h2>
+            <h3 class="type">Akty wandalizmu</h3>
             <p>Skutecznie usuwam drobne wgniecenia powstałe w wyniku aktów wandalizmu lub uderzeń twardymi przedmiotami, przywracając idealny wygląd karoserii.</p>
         </div>
 
@@ -130,14 +152,14 @@
             <div class="icon" style="display: flex; justify-content: center;">           
                 <img src="assets/wypadek.png" alt="Naprawy powypadkowe - PDR" class="icon-type">
             </div>
-            <h2 class="type">Naprawy powypadkowe</h2>
+            <h3 class="type">Naprawy powypadkowe</h3>
             <p>W przypadku drobnych kolizji przywracamy oryginalny kształt blachy bez ingerencji w lakier.</p>
         </div>
     </div>
 </section>
 
     <section id="why-pdr">
-      <h1>Dlaczego PDR?</h1>
+      <h2>Dlaczego PDR?</h2>
       <div class="underline"></div>
       <div class="benefits">
         <div class="benefit">
@@ -172,7 +194,7 @@
     </section>
 
     <section id="reviews">
-      <h1>Zobacz, co mówią o mnie <span style="color: #e60000;">klienci</span></h1>
+      <h2>Zobacz, co mówią o mnie <span style="color: #e60000;">klienci</span></h2>
       <div class="underline"></div>
       <div class="reviews-container">
         <div class="review-cards">
@@ -200,19 +222,19 @@
 
     <section id="contact">
       <div class="contact-inner">
-        <h1>Kontakt</h1>
+        <h2>Kontakt</h2>
         <div class="underline"></div>
         <div class="contact-grid">
           <div class="contact-card">
-            <h2>Telefon</h2>
+            <h3>Telefon</h3>
             <a class="contact-link phone" href="tel:+48600557101" aria-label="Zadzwoń">+48 600 557 101</a>
           </div>
           <div class="contact-card">
-            <h2>Email</h2>
+            <h3>Email</h3>
             <a class="contact-link email" href="mailto:wgniotolog@gmail.com" aria-label="Napisz e-mail">wgniotolog@gmail.com</a>
           </div>
           <div class="contact-card social-card">
-            <h2>Socjale</h2>
+            <h3>Socjale</h3>
             <div class="social-icons">
               <a href="https://instagram.com/wgniotolog" target="_blank" rel="noopener" aria-label="Instagram">
                 <img src="assets/instagram.png" alt="Instagram" class="social-icon">
