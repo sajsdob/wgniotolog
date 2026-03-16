@@ -1,0 +1,30 @@
+# llms.txt
+
+site: https://wgniotolog.pl
+name: Wgniotolog
+type: local_business
+
+description:
+Profesjonalne usuwanie wgnieceń bez lakierowania (PDR) w Poznaniu.
+Naprawa wgnieceń parkingowych, po gradobiciu oraz drobnych szkód karoserii.
+Usługi mobilne na terenie Poznania i okolic.
+
+keywords:
+usuwanie wgnieceń poznań
+pdr poznań
+naprawa wgnieceń bez lakierowania
+dent repair poznan
+paintless dent repair poland
+
+location:
+Poznań, Poland
+
+contact:
+phone: +48 600 557 101
+email: wgniotolog@gmail.com
+
+links:
+https://wgniotolog.pl
+https://instagram.com/wgniotolog
+https://www.youtube.com/@wgniotolog
+https://www.tiktok.com/@wgniotolog
