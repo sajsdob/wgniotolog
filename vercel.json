@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "https://www.wgniotolog.pl/:path*",
+      "destination": "https://wgniotolog.pl/:path*",
+      "permanent": true
+    }
+  ]
+}
