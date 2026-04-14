@@ -322,10 +322,19 @@ html {
 
 .contact-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 20px;
   margin-top: 20px;
   align-items: start;
+
+  /* Mobile first — 1 per row */
+  grid-template-columns: 1fr;
+}
+
+/* Desktop — 2 per row */
+@media (min-width: 768px) {
+  .contact-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* Cards */
@@ -872,3 +881,4 @@ body {
 footer {
   opacity: 0.2;
 }
+
