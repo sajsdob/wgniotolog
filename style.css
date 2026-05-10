@@ -893,7 +893,7 @@ footer {
 }
 
 #pricing h2 {
-  font-size: 2.5rem;
+
   font-weight: 600;
   margin-bottom: 10px;
   color: #333;
@@ -965,25 +965,53 @@ footer {
   color: #111;
 }
 
+
+
+/* MOBILE */
 /* MOBILE */
 
 @media (max-width: 768px) {
 
   #pricing {
-    padding: 60px 15px;
+    padding: 60px 10px;
   }
 
   #pricing h2 {
     font-size: 2rem;
   }
 
+  .pricing-table-wrapper {
+    overflow-x: hidden;
+  }
+
   .pricing-table {
-    min-width: 700px;
+    width: 100%;
+    min-width: unset;
+    table-layout: fixed;
   }
 
   .pricing-table th,
   .pricing-table td {
-    padding: 14px 12px;
-    font-size: 0.88rem;
+    padding: 8px 4px;
+    font-size: 0.68rem;
+    word-break: break-word;
+  }
+
+  /* column widths */
+  .pricing-table th:nth-child(1),
+  .pricing-table td:nth-child(1) {
+    width: 18%;
+  }
+
+  .pricing-table th:nth-child(2),
+  .pricing-table td:nth-child(2) {
+    width: 38%;
+  }
+
+  .pricing-table th:nth-child(3),
+  .pricing-table td:nth-child(3),
+  .pricing-table th:nth-child(4),
+  .pricing-table td:nth-child(4) {
+    width: 22%;
   }
 }
