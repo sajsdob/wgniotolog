@@ -882,3 +882,108 @@ footer {
   opacity: 0.2;
 }
 
+
+
+/* PRICING SECTION */
+
+#pricing {
+  padding: 80px 40px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+#pricing h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.pricing-subtitle {
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+  color: #555;
+  font-size: 1rem;
+}
+
+.pricing-table-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow-x: auto;
+  border-radius: 12px;
+}
+
+.pricing-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.06);
+}
+
+.pricing-table thead {
+  background: #e60000;
+  color: white;
+}
+
+.pricing-table th {
+  padding: 18px 16px;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.pricing-table td {
+  padding: 16px;
+  border-bottom: 1px solid #eee;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.pricing-table tbody tr {
+  transition: background 0.2s ease;
+}
+
+.pricing-table tbody tr:hover {
+  background: #fafafa;
+}
+
+.pricing-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* pierwszy słupek */
+.pricing-table td:first-child {
+  font-weight: 700;
+  color: #e60000;
+}
+
+/* ostatnia kolumna */
+.pricing-table td:last-child {
+  font-weight: 700;
+  color: #111;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+  #pricing {
+    padding: 60px 15px;
+  }
+
+  #pricing h2 {
+    font-size: 2rem;
+  }
+
+  .pricing-table {
+    min-width: 700px;
+  }
+
+  .pricing-table th,
+  .pricing-table td {
+    padding: 14px 12px;
+    font-size: 0.88rem;
+  }
+}
