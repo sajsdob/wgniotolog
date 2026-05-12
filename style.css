@@ -1015,3 +1015,23 @@ footer {
     width: 22%;
   }
 }
+
+
+.dislaimer {
+    text-align: left;
+    padding-top: 50px;
+}
+
+
+.red-line {
+  width: 50%;
+  margin: 0 auto;
+  height: 5px;
+  background-color: lightgray;
+  border-radius: 20px;
+
+}
+
+body {
+  background-color: #f9f9f9;
+}
